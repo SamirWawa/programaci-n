@@ -19,7 +19,7 @@
             }
         }while(teclaFisica.Key != ConsoleKey.Enter);
 
-        Console.Write("\n Repetir contraseña");
+        Console.Write("\nRepetir contraseña:");
         do
         {
             teclaFisica=Console.ReadKey(true);
@@ -31,6 +31,7 @@
             }
         }while(teclaFisica.Key != ConsoleKey.Enter);
 
+          /*Todo este código que viene a continuación no es necesario*/
         for(int i=0;i<contraseña.Length;i++)
         {
             if(contraseña[i]==rep[i])
@@ -46,6 +47,14 @@
                 hayContraseña=false;
             }
         }
+          /**********************************************************/
+          /* Como has trabajado con dos string... ¿Cómo comparas dos string desde el tema 2?
+           if(rep == contraseña)
+            Console.WriteLine("Son iguales");
+        else
+            Console.WriteLine("Son diferentes");
+           
+           Adapta este código a tu solución. Piensa que lo de antes te ha llevado un buen rato pensarlo y hacer un if-else es cuestión de segundos. Es importante de cara a los exámenes*/
         return hayContraseña;
     }
     public static void Entrar(char[]contraseña, char[]aux)
@@ -55,7 +64,7 @@
         ConsoleKeyInfo teclaFisica;
         Console.WriteLine("Entrar: \n");
         Console.Write("Introduce constraseña:");
-        do
+        do /*Este código lo has hecho tres veces. ¿Y si lo modulaziras? ¡Atrévete!*/
         {
             teclaFisica=Console.ReadKey(true);
             if(teclaFisica.Key != ConsoleKey.Enter)
@@ -70,14 +79,14 @@
         {
             aux[j]=rep[j];
         }
-        for(int i=0;i<contraseña.Length;i++)
+        for(int i=0;i<contraseña.Length;i++) /*Puedes compararlo directamente con rep, no?*/
         {
             if(contraseña[i]!=aux[i])
             {
                 correcta=false;
             }
         }
-        if(correcta)
+        if(correcta) /*Retorna al programa principal un booleano y que sea el main quien escriba o no. Si esto lo haces así este módulo será más reutilizable*/
         {
             Console.WriteLine("La contraseña es correcta");
         }
