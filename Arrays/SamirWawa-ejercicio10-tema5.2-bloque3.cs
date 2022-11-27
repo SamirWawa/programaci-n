@@ -31,7 +31,7 @@
         {
             Console.WriteLine("Introduzca notas entre 0 y 10");
             nota = int.Parse(Console.ReadLine());
-            aux+=nota.ToString();
+            aux+=nota.ToString();  /*Y por qué no lo guardas directamente en el array?*/
         }while(nota>0 || nota<10);
 
         for(int j=0;j<aux.Length;j++)
@@ -71,9 +71,9 @@
             if(calificaciones[i]==9)
                 frecuencia[9]++;
             
-            if(calificaciones[i]==10)
+            if(calificaciones[i]==10) /*Parece que invita a un switch-case*/
                 frecuencia[10]++;
         }
-        Console.WriteLine(frecuencia);
+        Console.WriteLine(frecuencia); /*mmmm... qué salida obtienes con esto?*/
     }
 }
