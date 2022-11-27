@@ -19,7 +19,7 @@
             aux[i]=numero[i];
         }
         Array.Reverse(aux,0,numero.Length);
-        for(int j=0;j<numero.Length;j++)
+        for(int j=0;j<numero.Length;j++) /*Ya que llevas un booleano para controlar si es capicua, mejor salir del bucle con for(... j<numero.length &&capicua...) y no modificar el valor de j.*/
         {
             if(numero[j]!=aux[j])
             {
