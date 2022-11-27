@@ -18,6 +18,7 @@
             }
         }
         Console.WriteLine("El elemento mayor es "+numeroMayor);
+    }
     private static void Main(string[] args)
     {
         /*Ejercicio 6
@@ -25,7 +26,7 @@
         ocupa. Si hay varios iguales, sólo el primero.*/
         int[] ejemplo = new int[10];
         rellenarArray(ejemplo);
-        VisualizarElementoMayor(ejemplo);
+        VisualizarElementoMayor(ejemplo); ==> Está bien pero siempre es mejor diseño que la E y S la haga el programa principal. Por lo que el módulo VisualizarElementoMayor es mejor que retorne el dato y luego hagas un Console.WriteLine aquí. Apúntate este cambio y tenlo en cuenta.
         
        
     }
