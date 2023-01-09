@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 internal class Program
 {
-    const int ANCHO_CONSOLA = 80;
+        const int ANCHO_CONSOLA = 80;
         const int ALTO_CONSOLA = 24;
         const int FILAS = 6;
         const int COLUMNAS = 7;
@@ -44,6 +44,13 @@ internal class Program
         Console.WriteLine("Introduzca nombre del jugador 2");
         jugadores[1]= Console.ReadLine();
         return jugadores;
+    }
+    public static void DibujaCabeceraYMarcadores((string nombre, int partidasGanadas)[]jugadores, Turno turno)
+    {
+        Console.SetWindowSize(ANCHO_CONSOLA,ALTO_CONSOLA);
+        Console.SetCursorPosition(SEP_HUECOS_HORIZONTAL, SEP_HUECOS_VERTICAL);
+        Console.WriteLine("4 en linea Programación 1º DAM");
+        Console.Write(jugadores[0], partidasGanadas);
     }
     private static void Main(string[] args)
     {
