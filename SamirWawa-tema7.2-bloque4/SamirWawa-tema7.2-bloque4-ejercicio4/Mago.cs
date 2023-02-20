@@ -16,7 +16,7 @@ class Mago:Humano
         this.tunica=tunica;
     }
     
-    public virtual new string ACadena()
+    public virtual new string ACadena() /*Usar override*/
     {
         return $"{base.ACadena()}Arma: {libroHechizos}\nArmadura: {tunica}\n";
     }
