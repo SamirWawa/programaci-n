@@ -1,10 +1,23 @@
 ﻿using System.Text.RegularExpressions;
 internal class Program
 {
-    private static void BuscarEnCadena(string cadena, string palabra)
+    private static void BuscarEnCadena(string cadena, Regex palabra)
     {
-        if(Regex.IsMatch(cadena, palabra))
-            Console.WriteLine("Existe la palabra en el fichero");
+        Match coincidencia = palabra.Match(cadena);
+        int veces = default;
+
+        if(!coincidencia.Success)
+            Console.WriteLine("CADENA NO ENCONTRADA");
+        else
+        {
+            while(coincidencia.Success)
+            {
+                veces++;
+                Console.WriteLine("Posición aparición: " + coincidencia.Index);
+                coincidencia = coincidencia.NextMatch();
+            }
+            Console.WriteLine("Número de apariciones: " + veces);
+        }
     }
 
     private static void BuscarEnFichero(string ruta, string palabra)
@@ -12,7 +25,8 @@ internal class Program
         FileStream f = new FileStream(ruta, FileMode.Open, FileAccess.Read);
         BinaryReader br = new BinaryReader(f, System.Text.Encoding.UTF8);
         string cadena = br.ReadString();
-        BuscarEnCadena(cadena, palabra);
+        Regex patron = new Regex(palabra);
+        BuscarEnCadena(cadena, patron);
         br.Close();
     }
 
