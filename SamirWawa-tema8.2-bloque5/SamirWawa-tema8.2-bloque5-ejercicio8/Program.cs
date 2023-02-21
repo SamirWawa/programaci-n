@@ -11,7 +11,10 @@ internal class Program
     {
         FileStream f = new FileStream(ruta, FileMode.Open, FileAccess.Read);
         BinaryReader br = new BinaryReader(f, System.Text.Encoding.UTF8);
-        string cadena = br.ReadString();
+        string cadena = default;
+
+        while(br.PeekChar() >= 0)
+            cadena += br.ReadChar();
         BuscarEnCadena(cadena, palabra);
         br.Close();
     }

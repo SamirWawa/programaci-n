@@ -1,0 +1,15 @@
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\bin\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.exe
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\bin\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.deps.json
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\bin\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.runtimeconfig.json
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\bin\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.dll
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\bin\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.dll
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\refint\SamirWawa-tema8.2-bloque5-ejercicio9.dll
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\SamirWawa-tema8.2-bloque5-ejercicio9.genruntimeconfig.cache
+C:\Users\alumno\Desktop\Programación\Bloque 5\Tema 8\Ejercicios\Flujos Entrada Y Salida\SamirWawa-tema8.2-bloque5-ejercicio9\obj\Debug\net6.0\ref\SamirWawa-tema8.2-bloque5-ejercicio9.dll
