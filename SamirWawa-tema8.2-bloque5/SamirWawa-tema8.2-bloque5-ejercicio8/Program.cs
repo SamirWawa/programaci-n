@@ -6,12 +6,13 @@ internal class Program
         Match coincidencia = palabra.Match(cadena);
         int veces = default;
 
-        if(coincidencia.Success)
+        while(coincidencia.Success)
         {
-            Console.WriteLine("Existe la palabra en el fichero");
-            Console.WriteLine("Número de coincidencias: " + coincidencia.Index);
+            veces++;
+            Console.WriteLine("Posición aparición: " + coincidencia.Index);
+            coincidencia = coincidencia.NextMatch();
         }
-        
+        Console.WriteLine("Número de apariciones: " + veces);
     }
 
     private static void BuscarEnFichero(string ruta, string palabra)
