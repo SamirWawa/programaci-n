@@ -1,0 +1,15 @@
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.csproj.AssemblyReference.cache
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.AssemblyInfoInputs.cache
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.AssemblyInfo.cs
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.csproj.CoreCompileInputs.cache
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\bin\Debug\net6.0\Ejercicio3.exe
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\bin\Debug\net6.0\Ejercicio3.deps.json
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\bin\Debug\net6.0\Ejercicio3.runtimeconfig.json
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\bin\Debug\net6.0\Ejercicio3.dll
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\bin\Debug\net6.0\Ejercicio3.pdb
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.dll
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\refint\Ejercicio3.dll
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.pdb
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\Ejercicio3.genruntimeconfig.cache
+F:\Ciclos\1ºDAM\Programación\Practicas\programaci-n\SamirWawa-tema9.1-bloque6\SamirWawa-tema9.1-bloque6-ejercicio3\obj\Debug\net6.0\ref\Ejercicio3.dll

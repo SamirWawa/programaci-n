@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EYqTqmSqETZjGORZ4XUvpVyN29Al+Vfj8J8lQyoPMmoJORGSGU335ZFnij808VvJJPnaT9U9LOpMxYGE3geREw==",
+  "success": true,
+  "projectFilePath": "F:\\Ciclos\\1ºDAM\\Programación\\Bloque 6\\Tema 9\\Ejercicios\\Librerias\\Ejercicio1\\Ejercicio1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\spectre.console\\0.46.0\\spectre.console.0.46.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
