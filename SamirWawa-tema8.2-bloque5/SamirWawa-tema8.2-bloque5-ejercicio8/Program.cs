@@ -3,7 +3,7 @@ internal class Program
 {
     private static void BuscarEnCadena(string cadena, string palabra)
     {
-        if(Regex.IsMatch(cadena, palabra))
+        if(Regex.IsMatch(cadena, palabra))/*Cuidadito con esto: subcadenas, patrones...*/
             Console.WriteLine("Existe la palabra en el fichero");
     }
 
