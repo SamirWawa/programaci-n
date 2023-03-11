@@ -6,7 +6,7 @@ class NumeroCurioso
     public double C {get;}
     public NumeroCurioso(string cadena)
     {
-        string patron = @"^(?<a>\d+),(?<b>\d+),(?<c>\d+)$";
+        string patron = @"^([a-zA-Z])?\((?<a>\d+),(?<b>\d+),(?<c>\d+)\)$";
         Match coincidencia = Regex.Match(cadena, patron);
         if(coincidencia.Success)
         {
@@ -27,10 +27,10 @@ class NumeroCurioso
             num1 = (nc1.A+nc2.A)/Math.Sqrt(Math.Pow(nc1.B+nc2.B, 2)+Math.Pow(nc1.C+nc2.C, 2)+Math.Pow(nc1.A+nc2.A, 2));
             num2 = (nc1.B+nc2.B)/Math.Sqrt(Math.Pow(nc1.B+nc2.B, 2)+Math.Pow(nc1.C+nc2.C, 2)+Math.Pow(nc1.A+nc2.A, 2));
             num3 = (nc1.C+nc2.C)/Math.Sqrt(Math.Pow(nc1.B+nc2.B, 2)+Math.Pow(nc1.C+nc2.C, 2)+Math.Pow(nc1.A+nc2.A, 2));
-            return new NumeroCurioso($"{num1},{num2},{num3}");
+            return new NumeroCurioso($"({num1},{num2},{num3})");
         }
         else
-            return new NumeroCurioso("0,0,0");
+            return new NumeroCurioso("(0,0,0)");
     }
     public static NumeroCurioso operator -(NumeroCurioso nc1, NumeroCurioso nc2)
     {
@@ -42,9 +42,9 @@ class NumeroCurioso
             num1 = (nc1.A-nc2.A)/Math.Sqrt(Math.Pow(nc1.B-nc2.B, 2)+Math.Pow(nc1.C-nc2.C, 2)+Math.Pow(nc1.A-nc2.A, 2));
             num2 = (nc1.B-nc2.B)/Math.Sqrt(Math.Pow(nc1.B-nc2.B, 2)+Math.Pow(nc1.C-nc2.C, 2)+Math.Pow(nc1.A-nc2.A, 2));
             num3 = (nc1.C-nc2.C)/Math.Sqrt(Math.Pow(nc1.B-nc2.B, 2)+Math.Pow(nc1.C-nc2.C, 2)+Math.Pow(nc1.A-nc2.A, 2));
-            return new NumeroCurioso($"{num1},{num2},{num3}");
+            return new NumeroCurioso($"({num1},{num2},{num3})");
         }
         else
-            return new NumeroCurioso("0,0,0");
+            return new NumeroCurioso("(0,0,0)");
     }
 }
