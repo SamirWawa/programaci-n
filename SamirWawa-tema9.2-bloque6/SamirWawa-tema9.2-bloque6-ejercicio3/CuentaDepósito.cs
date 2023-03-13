@@ -4,10 +4,11 @@ class CuentaDeposito : CuentaAhorro
     public bool Vencimiento{get;set;}
     public CuentaDeposito(string numero, string titular, double Interes, double recargo_tpu) : base(titular, numero, Interes)
     {
+      /*Inicializar atributos*/
     }
     public override double Reintegro(double cantidad)
     {
-        if(Vencimiento)
+        if(Vencimiento) /*Si no se ha vencido*/
             cantidad -= cantidad*Interes_tpu;
         this.Saldo -= cantidad;
         return cantidad;
