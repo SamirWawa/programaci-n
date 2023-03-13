@@ -3,7 +3,7 @@
     public double Interes_tpu{get; set;}
     public CuentaAhorro(string numero, string titular, double Interes_tpu):base(numero, titular)
     {
-
+        /*En el constructor debes inicializar tus atributos*/
     }
     public void SumaInteres()
     {

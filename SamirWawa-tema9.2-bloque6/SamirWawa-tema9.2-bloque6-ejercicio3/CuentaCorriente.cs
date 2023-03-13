@@ -5,6 +5,7 @@ class CuentaCorriente : Cuenta
     private int numeroTransaccionesMesActual{get;set;}
     public CuentaCorriente(string numero, string titular, int Transacciones, double recargoXTransaccionAdicional_Euros) : base(numero, titular)
     {
+        /*En el constructor debes incializar tus atributos*/
     }
     public void reiniciaTransacciones()
     {
@@ -12,13 +13,13 @@ class CuentaCorriente : Cuenta
     }
     public override void Ingreso(double cantidad)
     {
-        Saldo = Saldo + cantidad;
+        Saldo = Saldo + cantidad; /*Puedes llamar a ingreso de base que hace esto*/
         numeroTransaccionesMesActual++;
     }
 
     public override double Reintegro(double cantidad)
     {
-        if (Saldo - cantidad > 0)
+        if (Saldo - cantidad > 0) /*Ídem*/
             Saldo = Saldo - cantidad;
         else
         {
@@ -30,6 +31,7 @@ class CuentaCorriente : Cuenta
     }
     public void AplicaRecargosMes()
     {
+       /*Sólo hay recargo si nos pasamos del número de transacciones permitidas, hay que comprobarlo antes*/
         Saldo -= (numeroTransaccionesMesActual-maximoTransaccionesGratuitasPorMes)*recargoXTransaccionAdicional_Euros;
     }
     public override string ToString()

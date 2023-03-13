@@ -5,6 +5,7 @@ class CuentaCredito:Cuenta
 
     public CuentaCredito(string numero, string titular,double interes_tpu, int Transacciones) : base(numero, titular)
     {
+       /*Inicializar atributos*/
     }
     public override double Reintegro(double cantidad)
     {
