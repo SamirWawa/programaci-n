@@ -1,0 +1,35 @@
+MODO: DAB
+STATE: RADIO OFF
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 1
+MODO: DAB
+STATE: HEARING... FM - 87,5 MHz
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 6
+MODO: CD
+STATE: NO DISC
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 7
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 1 - Wanna Be Startin' Somethin
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off   
+Opción ... 1
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 1 - Wanna Be Startin' Somethin
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off   
+Opción ... 5
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 2 - Baby Be Mine
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 5
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 3 - The Girl Is Mine       
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 5
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 4 - Thriller
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
+Opción ... 5
+MODO: CD
+STATE: PLAYING... Album: Thriller Artist: Michael Jackson. Track 5 - Beat It
+[1]Play [2]Pause [3]Stop [4]Prev [5]Next [6]Switch [7]Insert CD [8]Extract CD, [ESC]Turn off
