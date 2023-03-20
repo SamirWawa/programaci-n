@@ -2,7 +2,7 @@ class Disc
 {
     private string Album{get;set;}
     private string Artist{get;set;}
-    private string[] Songs{get;set;}
+    public string[] Songs{get;set;}
     public string NombreCancion(in int song)=>Songs[song];
     public Disc(string album, string artist, string[] songs)
     {
@@ -12,6 +12,6 @@ class Disc
     }
     public override string ToString()
     {
-        return base.ToString();
+        return $"Album: {Album} Artist: {Artist}";
     }
 }
