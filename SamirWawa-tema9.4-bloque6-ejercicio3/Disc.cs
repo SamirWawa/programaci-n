@@ -1,7 +1,7 @@
 class Disc
 {
-    private string Album{get;set;}
-    private string Artist{get;set;}
+    public string Album{get;set;}
+    public string Artist{get;set;}
     public string[] Songs{get;set;}
     public string NombreCancion(in int song)=>Songs[song];
     public Disc(string album, string artist, string[] songs)

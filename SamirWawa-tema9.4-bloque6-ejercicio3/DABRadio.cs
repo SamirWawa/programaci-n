@@ -5,7 +5,7 @@ class DABRadio:IMedia
     const float MIN_FREQUENCY = 87.5f;
     private float Frequency{get;set;}
     public string MessageToDisplay{get;}
-    private MediaState State{get;set;}
+    public MediaState State{get;set;}
     public DABRadio()
     {
         State = MediaState.Playing;

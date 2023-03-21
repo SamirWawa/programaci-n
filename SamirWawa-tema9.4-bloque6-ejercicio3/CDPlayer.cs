@@ -1,7 +1,7 @@
 class CDPlayer:IMedia
 {
     private ushort Track{get;set;}
-    private MediaState State{get;set;}
+    public MediaState State{get;set;}
     public bool MediaIn{get;}
     public string MessageToDisplay{get;}
     public Disc d=null;
