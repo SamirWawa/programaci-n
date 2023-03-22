@@ -1,0 +1,15 @@
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\bin\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.exe
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\bin\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.deps.json
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\bin\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.runtimeconfig.json
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\bin\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.dll
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\bin\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.dll
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\refint\SamirWawa-tema9.5-bloque6-ejercicio4.dll
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\SamirWawa-tema9.5-bloque6-ejercicio4.genruntimeconfig.cache
+C:\Users\alumno\Desktop\Programación\Bloque 6\Tema 9\Ejercicios\genericos\SamirWawa-tema9.5-bloque6-ejercicio4\obj\Debug\net6.0\ref\SamirWawa-tema9.5-bloque6-ejercicio4.dll

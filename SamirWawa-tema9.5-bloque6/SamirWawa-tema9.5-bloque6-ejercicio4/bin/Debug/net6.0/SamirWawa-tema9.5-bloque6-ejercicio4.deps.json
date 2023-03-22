@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SamirWawa-tema9.5-bloque6-ejercicio4/1.0.0": {
+        "runtime": {
+          "SamirWawa-tema9.5-bloque6-ejercicio4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SamirWawa-tema9.5-bloque6-ejercicio4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
