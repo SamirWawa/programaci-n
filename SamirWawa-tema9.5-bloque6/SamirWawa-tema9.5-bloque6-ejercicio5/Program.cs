@@ -3,7 +3,10 @@ internal class Program
 {
     public static void MuestraTemperaturas(TemperaturasXProvincia[] txp, float mediaMaximas, IObtenTemperatura max, ICumplePredicado<float> may)
     {
-        CalcularMedia(txp, new ObtenMaxima());
+        for (int i = 1; i < txp.Length; i++)
+        {
+            may.Predicado(mediaMaximas, txp[i].TemperaturaMaxima);
+        }
     }
     public static TemperaturasXProvincia[] RecogeTemperaturas()
     {
