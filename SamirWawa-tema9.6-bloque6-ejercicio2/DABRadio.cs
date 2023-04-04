@@ -3,6 +3,7 @@ class DABRadio : IMedia
     const float SEEK_STEP = 0.5f;
     const float MAX_FREQUENCY = 108f;
     const float MIN_FRECUENCY = 87.5f;
+    public string Name { get; }
 
     public class DABRadioException : MediaException
     {
@@ -18,6 +19,7 @@ class DABRadio : IMedia
     {
         Frequency = MIN_FRECUENCY;
         State = MediaState.Stopped;
+        Name = "Radio";
     }
 
     public string MessageToDisplay

@@ -1,6 +1,6 @@
 interface IMedia : ICloneable
 {
-    string MessageToDisplay { get; }
+    string Name { get; }
     void Play();
     void Stop();
     void Pause();

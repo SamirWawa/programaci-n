@@ -2,7 +2,7 @@ class Disc
 {
     private string Album { get; set; }
     private string Artist { get; set; }
-    private string[] Songs { get; set; }
+    public string[] Songs { get; set; }
 
     public Disc(string album, string artist, string[] songs)
     {

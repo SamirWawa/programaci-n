@@ -3,9 +3,13 @@ class MultimediaDevice : IMedia
     public IMedia[] MediaDevices { get; set; }
     public IMedia ActiveDevice { get; set; }
     public IMessageToDisplay DevicesMenu { get; }
-    public string MessageToDisplay { get; }
+    public string Name { get; }
 
     public MultimediaDevice(in IMedia[] medios, in IMessageToDisplay devicesMenu)
+    {
+        MediaDevices = medios;
+        DevicesMenu = devicesMenu;
+    }
     private IRemovableMedia<T> SetActiveDevicetoParametrizedMedia<T>()
     public void Insert<T>(in T media)
     public void Extract<T>()
