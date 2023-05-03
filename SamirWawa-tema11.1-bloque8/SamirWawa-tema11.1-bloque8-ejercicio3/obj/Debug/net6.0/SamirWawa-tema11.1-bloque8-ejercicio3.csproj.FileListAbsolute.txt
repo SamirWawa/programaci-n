@@ -1,0 +1,15 @@
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\bin\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.exe
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\bin\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.deps.json
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\bin\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.runtimeconfig.json
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\bin\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.dll
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\bin\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.dll
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\refint\SamirWawa-tema11.1-bloque8-ejercicio3.dll
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.pdb
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\SamirWawa-tema11.1-bloque8-ejercicio3.genruntimeconfig.cache
+C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\obj\Debug\net6.0\ref\SamirWawa-tema11.1-bloque8-ejercicio3.dll

@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SamirWawa_tema11._1_bloque8_ejercicio3
+build_property.ProjectDir = C:\Users\alumno\Desktop\Programación\Bloque 8\Tema 11\Delegados\SamirWawa-tema11.1-bloque8-ejercicio3\
