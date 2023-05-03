@@ -6,7 +6,7 @@ class Polinomio : IEnumerable<SortedDictionary<int, int>>
     {
         Monomios = new SortedDictionary<int, int>();
         string patron = @"(?<grupoCoeficiente>[+-]?\d*)?(?<grupoIncognita>[Xx])?(?<grupoExponente>\d*)?";
-        string cadena = "";
+        string cadena = ""; /*O split o iterar por matches usando NextMatch()*/
         for (int i = 0; i < monomio.Length; i++)
         {
             if (monomio[i + 1] == '+' || monomio[i + 1] == '-' || i == monomio.Length - 1)
