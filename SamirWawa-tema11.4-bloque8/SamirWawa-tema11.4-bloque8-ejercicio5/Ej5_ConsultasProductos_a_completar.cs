@@ -113,28 +113,32 @@ namespace Ej5_ConsultasProductos
                     "Consulta 2: Usando las funciones Select, OrderByDescending y Take.\n" +
                     "Muestra CodArticulo, Descripcion y Precio de los 3 productos.\n" +
                     "más caros (ordenando por Precio descendente)\n");
-                var consulta2 = "";
+                var consulta2 = Productos.OrderByDescending(n => n.Precio).Select(n=>new {
+                                            CodArticulo = n.CodArticulo,
+                                            Descripcion = n.Descripcion,
+                                            Precio = n.Precio
+                });
                 Console.WriteLine(string.Join("\n", consulta2));
 
                 Console.WriteLine(SeparadorConsulta);
                 Console.WriteLine(
                     "Consulta 3: Usando las funciones GroupBy, OrderBy y First.\n" +
                     "Muestra el precio más barato por categoría\n");
-                var consulta3 = "";
+                var consulta3 = Productos.OrderBy(n=>n.Precio).GroupBy(n => n.Categoria);
                 Console.WriteLine(string.Join("\n", consulta3));
 
                 Console.WriteLine(SeparadorConsulta);
                 Console.WriteLine(
                     "Consulta 4: Usando las funciones GroupBy, Count.\n" +
                     "¿Cuántos productos hay de cada categoría?\n");
-                var consulta4 = "";
+                var consulta4 = Productos.GroupBy(n=>n.Categoria).Count();
                 Console.WriteLine(string.Join("\n", consulta4));
 
                 Console.WriteLine(SeparadorConsulta);
                 Console.WriteLine(
                     "Consulta 5: Usando las funciones GroupBy, Count, Where y Select\n" +
                     "Mostrar las categorías que tengan más de 2 productos\n");
-                var consulta5 = "";
+                var consulta5 = Productos.Select(n=> n.Categoria).GroupBy(n=>n).Where(n=>n.Count()>2);
                 Console.WriteLine(string.Join("\n", consulta5));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -142,7 +146,12 @@ namespace Ej5_ConsultasProductos
                     "Consulta 6: Usando la función Select\n" +
                     "Mostrar CodArticulo, Descripcion, Precio y Descuento redondeado a 2 decimales,\n" +
                     "siendo Descuento el 10% del Precio\n");
-                var consulta6 = "";
+                var consulta6 = Productos.Select(n =>new {
+                                            CodArticulo = n.CodArticulo,
+                                            Descripcion = n.Descripcion,
+                                            Precio = n.Precio,
+                                            Descuento = n.Precio-n.Precio/10
+                });
                 Console.WriteLine(string.Join("\n", consulta6));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -151,7 +160,11 @@ namespace Ej5_ConsultasProductos
                     "Mostrar CodArticulo, Descripcion y Colores\n" +
                     "de los productos de color verde o rojo\n" +
                     "(es decir, que contengan alguno de los dos)\n");
-                var consulta7 = "";
+                var consulta7 = Productos.Where(n =>n.Colores.Contains("verde")||n.Colores.Contains("rojo")).Select(n=>new{
+                                            CodArticulo = n.CodArticulo,
+                                            Descripcion = n.Descripcion,
+                                            Colores = n.Colores
+                });
                 Console.WriteLine(string.Join("\n", consulta7));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -159,7 +172,11 @@ namespace Ej5_ConsultasProductos
                     "Consulta 8: Usando las funciones Where, Count y Select.\n" +
                     "Mostrar CodArticulo, Descripcion y Colores.\n" +
                     "de los productos que se fabrican en tres Colores\n");
-                var consulta8 = "";
+                var consulta8 = Productos.Where(n=>n.Colores.Count()==3).Select(n=>new{
+                                            CodArticulo = n.CodArticulo,
+                                            Descripcion = n.Descripcion,
+                                            Colores = n.Colores
+                });
                 Console.WriteLine(string.Join("\n", consulta8));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -167,7 +184,11 @@ namespace Ej5_ConsultasProductos
                     "Consulta 9: Usando las funciones Where, Select.\n" +
                     "Mostrar CodArticulo, Descripcion y Dimensiones\n" +
                     "de los productos con espesor de 3 cm\n");
-                var consulta9 = "";
+                var consulta9 = Productos.Where(n=>n.Dimensiones==3).Select(n=>new{
+                                            CodArticulo = n.CodArticulo,
+                                            Descripcion = n.Descripcion,
+                                            Dimensiones = n.Dimensiones
+                });
                 Console.WriteLine(string.Join("\n", consulta9));
 
                 Console.WriteLine(SeparadorConsulta);
