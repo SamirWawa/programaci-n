@@ -163,7 +163,7 @@ namespace Ej5_ConsultasProductos
                 var consulta7 = Productos.Where(n =>n.Colores.Contains("verde")||n.Colores.Contains("rojo")).Select(n=>new{
                                             CodArticulo = n.CodArticulo,
                                             Descripcion = n.Descripcion,
-                                            Colores = n.Colores
+                                            Colores = n.Colores.Aggregate("", (cad, col)=> cad+" "+col)
                 });
                 Console.WriteLine(string.Join("\n", consulta7));
 
@@ -175,7 +175,7 @@ namespace Ej5_ConsultasProductos
                 var consulta8 = Productos.Where(n=>n.Colores.Count()==3).Select(n=>new{
                                             CodArticulo = n.CodArticulo,
                                             Descripcion = n.Descripcion,
-                                            Colores = n.Colores
+                                            Colores = n.Colores.Aggregate("", (cad, col)=> cad+" "+col)
                 });
                 Console.WriteLine(string.Join("\n", consulta8));
 
@@ -203,7 +203,7 @@ namespace Ej5_ConsultasProductos
                 Console.WriteLine(
                     "Consulta 11: Usando las funciones SelectMany, GroupBy, OrderByDescending.\n" +
                     "Mostrar TotalProductos que hay de cada Color ordenando de mayor a menor cantidad\n");
-                var consulta11 = Productos.GroupBy(n => n.Colores,(Colores, Grupo)=>new{Colores = Colores, Grupo = Grupo}).OrderByDescending(n=>n.Grupo.Count());
+                var consulta11 = Productos.GroupBy(n => n.Colores,(Colores, Grupo)=>new{Colores = Colores.Aggregate("", (cad, col)=> cad+" "+col), Grupo = Grupo.Count()}).OrderByDescending(n=>n.Grupo);
                 Console.WriteLine(string.Join("\n", consulta11));
             }
         }

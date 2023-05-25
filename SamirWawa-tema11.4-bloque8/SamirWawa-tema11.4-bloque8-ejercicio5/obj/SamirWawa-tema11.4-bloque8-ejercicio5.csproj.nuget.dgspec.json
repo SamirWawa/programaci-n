@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Cole\\1DAMA\\Programación\\Bloque 8\\Tema 11\\ProgramacionFuncional\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj": {}
+    "C:\\Users\\alumno\\Desktop\\Programación\\Practicas\\programaci-n\\SamirWawa-tema11.4-bloque8\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj": {}
   },
   "projects": {
-    "F:\\Cole\\1DAMA\\Programación\\Bloque 8\\Tema 11\\ProgramacionFuncional\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj": {
+    "C:\\Users\\alumno\\Desktop\\Programación\\Practicas\\programaci-n\\SamirWawa-tema11.4-bloque8\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Cole\\1DAMA\\Programación\\Bloque 8\\Tema 11\\ProgramacionFuncional\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj",
+        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Programación\\Practicas\\programaci-n\\SamirWawa-tema11.4-bloque8\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj",
         "projectName": "SamirWawa-tema11.4-bloque8-ejercicio5",
-        "projectPath": "F:\\Cole\\1DAMA\\Programación\\Bloque 8\\Tema 11\\ProgramacionFuncional\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj",
-        "packagesPath": "C:\\Users\\rimas\\.nuget\\packages\\",
-        "outputPath": "F:\\Cole\\1DAMA\\Programación\\Bloque 8\\Tema 11\\ProgramacionFuncional\\SamirWawa-tema11.4-bloque8-ejercicio5\\obj\\",
+        "projectPath": "C:\\Users\\alumno\\Desktop\\Programación\\Practicas\\programaci-n\\SamirWawa-tema11.4-bloque8\\SamirWawa-tema11.4-bloque8-ejercicio5\\SamirWawa-tema11.4-bloque8-ejercicio5.csproj",
+        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alumno\\Desktop\\Programación\\Practicas\\programaci-n\\SamirWawa-tema11.4-bloque8\\SamirWawa-tema11.4-bloque8-ejercicio5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rimas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
