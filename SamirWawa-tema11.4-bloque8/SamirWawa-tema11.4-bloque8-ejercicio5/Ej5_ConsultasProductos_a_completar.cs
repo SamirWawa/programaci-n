@@ -117,14 +117,14 @@ namespace Ej5_ConsultasProductos
                                             CodArticulo = n.CodArticulo,
                                             Descripcion = n.Descripcion,
                                             Precio = n.Precio
-                });
+                }).Take(3);
                 Console.WriteLine(string.Join("\n", consulta2));
 
                 Console.WriteLine(SeparadorConsulta);
                 Console.WriteLine(
                     "Consulta 3: Usando las funciones GroupBy, OrderBy y First.\n" +
                     "Muestra el precio más barato por categoría\n");
-                var consulta3 = Productos.OrderBy(n=>n.Precio).GroupBy(n => n.Categoria);
+                var consulta3 = Productos.OrderBy(n=>n.Precio).GroupBy(n => n.Categoria).First();
                 Console.WriteLine(string.Join("\n", consulta3));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -138,7 +138,7 @@ namespace Ej5_ConsultasProductos
                 Console.WriteLine(
                     "Consulta 5: Usando las funciones GroupBy, Count, Where y Select\n" +
                     "Mostrar las categorías que tengan más de 2 productos\n");
-                var consulta5 = Productos.Select(n=> n.Categoria).GroupBy(n=>n).Where(n=>n.Count()>2);
+                var consulta5 = Productos.GroupBy(n=>n.Categoria).Where(n=>n.Count()>2).Select(n=>n.Key);
                 Console.WriteLine(string.Join("\n", consulta5));
 
                 Console.WriteLine(SeparadorConsulta);
@@ -150,7 +150,7 @@ namespace Ej5_ConsultasProductos
                                             CodArticulo = n.CodArticulo,
                                             Descripcion = n.Descripcion,
                                             Precio = n.Precio,
-                                            Descuento = n.Precio-n.Precio/10
+                                            Descuento = n.Precio/10
                 });
                 Console.WriteLine(string.Join("\n", consulta6));
 
@@ -184,7 +184,7 @@ namespace Ej5_ConsultasProductos
                     "Consulta 9: Usando las funciones Where, Select.\n" +
                     "Mostrar CodArticulo, Descripcion y Dimensiones\n" +
                     "de los productos con espesor de 3 cm\n");
-                var consulta9 = Productos.Where(n=>n.Dimensiones==3).Select(n=>new{
+                var consulta9 = Productos.Where(n=>n.Dimensiones.Espesor==3).Select(n=>new{
                                             CodArticulo = n.CodArticulo,
                                             Descripcion = n.Descripcion,
                                             Dimensiones = n.Dimensiones
@@ -195,7 +195,7 @@ namespace Ej5_ConsultasProductos
                 Console.WriteLine(
                     "Consulta 10: Usando las funciones SelectMany, Distinct y OrderBy.\n" +
                     "Mostrar los colores de productos ordenados y sin repeticiones\n");
-                var consulta10 = "";
+                var consulta10 = Productos.SelectMany(n=>n.Colores).Distinct().OrderBy(n=>n);
                 Console.WriteLine(string.Join("\n", consulta10));
 
 
@@ -203,7 +203,7 @@ namespace Ej5_ConsultasProductos
                 Console.WriteLine(
                     "Consulta 11: Usando las funciones SelectMany, GroupBy, OrderByDescending.\n" +
                     "Mostrar TotalProductos que hay de cada Color ordenando de mayor a menor cantidad\n");
-                var consulta11 = "";
+                var consulta11 = Productos.GroupBy(n => n.Colores,(Colores, Grupo)=>new{Colores = Colores, Grupo = Grupo}).OrderByDescending(n=>n.Grupo.Count());
                 Console.WriteLine(string.Join("\n", consulta11));
             }
         }
